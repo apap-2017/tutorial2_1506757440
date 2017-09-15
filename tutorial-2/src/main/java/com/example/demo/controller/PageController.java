@@ -39,8 +39,7 @@ public class PageController {
 	{
 		model.addAttribute("a",a);
 		model.addAttribute("b",b);
-		int c = a * b;
-		model.addAttribute("c", c);
+		model.addAttribute("c", a * b);
 		return "perkalian";
 	}
 }
